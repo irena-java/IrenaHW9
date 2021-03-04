@@ -7,7 +7,7 @@ package com.company;
 
 public class Main {
     public static void main(String[] args) {
-       double square;
+        double square;
         int count = 0;
         for (int i = 1; i < 1000; i++) {
             for (int j = 1; j < 1000; j++) {
@@ -21,6 +21,7 @@ public class Main {
         }
         System.out.println(count + " треугольников");
         System.out.println("из них неповтояющихся: " + count / 3);
+        System.out.println("или как предполагалось сделать?");
     }
 
     private static double formulaGerona(int i, int j, int k) {
