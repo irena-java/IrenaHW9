@@ -19,7 +19,7 @@ public class Main {
                 }
             }
         }
-        System.out.println(count + " треугольников");
+        System.out.println(count + " треугольников,");
         System.out.println("из них неповтояющихся: " + count / 3);
         System.out.println("или как предполагалось сделать?");
     }
